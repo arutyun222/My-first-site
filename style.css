@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.6;
+}
+li{
+    padding-left: 150px;
+}
+
+.signs{
+    display: flex;
+    padding-left: 100px;
+}
+.sign-up{
+    padding-left: 40px;
+}
