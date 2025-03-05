@@ -1,5 +1,6 @@
+/* Первая страница */
 *{
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
 }
 .header{
@@ -13,14 +14,151 @@
     text-align: center;
     opacity: 0.6;
 }
+.logo img{
+    margin-left: 150px;
+}
 li{
     padding-left: 150px;
 }
-
 .signs{
     display: flex;
-    padding-left: 100px;
+    padding-left: 250px;
+}
+.sign-in{
+    font-weight: bold;
 }
 .sign-up{
-    padding-left: 40px;
+    border: 2px solid red;
+    margin-left: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: red;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.sign-up :hover{
+    transition: 0ms;
+}
+.sign-up a{
+    color: red;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    padding-left: 200px;
+}
+.cont-with-button{
+    margin-top: 20px;
+    padding-left: 150px;
+    width: 500px;
+}
+.cont-with-button h1{
+    font-size: 50px;
+}
+.human1 img{
+    display: flex;
+    margin-left: 70px;
+    padding-left: 150px;
+}
+.button1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+.cont-with-button p{
+    font-size: 20px;
+}
+.container-with-logotips{
+    display: flex;
+    padding-top: 100px;
+}
+.users{
+    position: absolute;
+    padding-left: 420px;
+    border-right: 1px solid rgb(122, 122, 122);
+    width: 270px;
+}
+.users-logo{
+    padding-left: 340px;
+}
+.locations{
+    position: absolute;
+    padding-left: 920px;
+    border-right: 1px solid rgb(122, 122, 122);
+    width: 270px;
+}
+.locations-logo{
+    padding-left: 450px;
+}
+.servers{
+    position: absolute;
+    padding-left: 1420px;
+}
+.server-logo{
+    padding-left: 450px;
+}
+.users p{
+    opacity: 0.6;
+    font-size: 20px;
+}
+.locations p{
+    opacity: 0.6;
+    font-size: 20px;
+}
+.servers p{
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+
+/* Вторая страница */
+.page2{
+    display: flex;
+}
+.paragraph{
+    margin-top: 220px;
+    padding-left: 180px;
+}
+.paragraph h1{
+    font-size: 40px;
+    width: 400px;
+}
+.paragraph p{
+    font-size: 20px;
+    width: 550px;
+    color:  rgb(122, 122, 122);
+}
+.paragraph ul{
+    list-style-type: none;
+    color: rgb(122, 122, 122)
+}
+.spisok{
+    margin-left: -150px;
+}
+.happy-human img{
+    margin-top: 170px;
+    padding-left: 250px;
+}
+
+/* Третья страница */
+.page3{
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
+    color: rgb(122, 122, 122); 
+}
+.text h1{
+    font-size: 40px;
 }
